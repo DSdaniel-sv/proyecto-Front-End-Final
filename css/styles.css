@@ -118,3 +118,13 @@ body{
 .video_1{
     width: 100%;
 }
+
+/* causel-ofertas */
+.carousel-inner img{
+    /* width: 100%;
+    height: 200px; */
+}
+/* .carousel-inner{
+    width: 100%;
+    height: 200px;
+} */
