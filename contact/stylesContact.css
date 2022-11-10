@@ -15,8 +15,8 @@ body{
 .wrapper{
     margin-left: 5%;
     margin-right: 5%;
-    background-color: rgb(94, 92, 92);
-    height: 1100px;
+    background-color: #f0f0f0;
+    height: auto;
 }
 .header__box{
     width: 100%;
@@ -108,12 +108,15 @@ body{
 }
 
 /** Form **/
-#form-width{width:100%;}
+#form-width{
+    width:100%;
+}
 #form-container{
     width:75%;
     margin:50px auto;
     background-color:#fff;
     border-radius:5px;
+    
 }
 #form-container .logotipe a{
     text-decoration: none;
