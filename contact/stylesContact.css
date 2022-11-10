@@ -81,11 +81,12 @@ body{
 
 }
 .container__menu{
+    width: 100%;
 }
 .menu{
     display: flex;
-    background-color: #f0f0f09d;
-    justify-content: space-around;
+    background-color: #6361619d;
+    justify-content: space-between;
     padding: 0;
 }
 .menu li{
