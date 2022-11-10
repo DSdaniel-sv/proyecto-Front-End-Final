@@ -48,6 +48,10 @@
     padding: 0;
     margin: 0;
 }
+
+.instalacion img{
+    width: 40%;
+}
 .instalacion{
     text-align: center;
 }
