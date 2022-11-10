@@ -15,8 +15,8 @@ body{
 .wrapper{
     margin-left: 5%;
     margin-right: 5%;
-    background-color: rgb(94, 92, 92);
-    height: 1100px;
+    background-color: #f0f0f0;
+    height: auto;
 }
 .header__box{
     width: 100%;
@@ -81,11 +81,12 @@ body{
 
 }
 .container__menu{
+    width: 100%;
 }
 .menu{
     display: flex;
-    background-color: #f0f0f09d;
-    justify-content: space-around;
+    background-color: #6361619d;
+    justify-content: space-between;
     padding: 0;
 }
 .menu li{
@@ -108,12 +109,15 @@ body{
 }
 
 /** Form **/
-#form-width{width:100%;}
+#form-width{
+    width:100%;
+}
 #form-container{
     width:75%;
     margin:50px auto;
     background-color:#fff;
     border-radius:5px;
+    
 }
 #form-container .logotipe a{
     text-decoration: none;
