@@ -46,6 +46,7 @@ form input::placeholder {
 form button {
   color: #fff;
   border: none;
+  border-radius: 12px;
   background: linear-gradient(to right, #a423cb, #2222cd);
   padding: 10px 15px;
   cursor: pointer;
