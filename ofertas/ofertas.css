@@ -4,6 +4,9 @@
     box-sizing: border-box;
 
 }
+.ofertas{
+    background-color: #fff;
+}
 
 .container-ofertas{
     padding-top: 2.5rem;
@@ -39,22 +42,20 @@
     font-weight: 700;
 }
 
-.section-title{
+.ofertas-title{
     text-align: center;
     padding: 3rem 0;
+    font-weight: bold;
 }
-
 .container{
     padding: 0;
     margin: 0;
 }
-
-.instalacion img{
-    width: 40%;
-}
-.instalacion{
+.envios-img{
     text-align: center;
+    padding-top: 1rem;
 }
+
 
 
 
