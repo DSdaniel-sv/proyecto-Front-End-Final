@@ -1,27 +1,35 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Autopartes</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./ofertas/ofertas.css">
     <link rel="stylesheet" href="./main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  </head>
-  <body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
     <div class="wrapper">
         <header class="header__box">
             <div class="header__superior">
                 <picture class="box__img">
-                    <img class="logo_img" src="./src/img/logo/logo.png" alt="logo.png">
+                    <a href="./index.html">
+                        <img class="logo_img" src="./src/img/logo/logo.png" alt="logo.png">
+                    </a>
                 </picture>
                 <form action="search" class="box__search">
                     <input type="search" placeholder="¿Que desea buscar?">
                 </form>
                 <div class="box__icons">
                     <ul class="menu__icons">
-                        <li><img src="./src/img/icons/cuenta.png" alt=""><a href="">Sign in</a></li>
-                        <li><img src="./src/img/icons/login-.png" alt=""><a href="">Login</a></li>
+                        <li><img src="./src/img/icons/cuenta.png" alt=""><a href="./register/register.html">Sign in</a>
+                        </li>
+                        <li><img src="./src/img/icons/login-.png" alt=""><a href="./login/login.html">Login</a></li>
                         <li><a href=""><img src="./src/img/icons/lista-de-deseos.png" alt=""></a></li>
                         <li><a href=""><img src="./src/img/icons/carrito-de-compras.png" alt=""></a></li>
                     </ul>
@@ -33,24 +41,55 @@
                         <li><a href="../index.html">Inicio</a></li>
                         <li><a href="./galery/index.html">Servicios</a></li>
                         <li><a href="">Novedades</a></li>
-                        <li><a href="">Ofertas</a></li>
+                        <li><a href="./ofertas/ofertas.html">Ofertas</a></li>
                         <li><a href="./contact/contacto.html">Contacto</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="header__inferior-menu">
-                <div class="container__menu">
-                    <ul class="menu">
-                        <li><a href="">Motores</a></li>
-                        <li><a href="">Repuestos</a></li>
-                        <li><a href="">Accesorios</a></li>
-                        <li><a href="">Lubricantes</a></li>
-                        <li><a href="">Vehiculos</a></li>
-                    </ul>
+
+            <div class="container-ofertas">
+                <div class="container-title">
+                    <h1>Aprovecha nuestras ofertas por tiempo limitado</h1>
                 </div>
-            </div>
+                <div class="ofertas-figure">
+                    <div>
+                        <figure>
+                            <a href=""><img src="./ofertas/src/1ofer.png" alt="">
+                                <span>Motores</span>
+                            </a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <a href=""><img src="./ofertas/src/repuestos.png" alt="">
+                                <span>Repuestos</span>
+                            </a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <a href=""><img src="./ofertas/src/accesorios.jpg" alt="">
+                                <span>accesorios</span>
+                            </a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <a href=""><img src="./ofertas/src/lubricantes.jpg" alt="">
+                                <span>Lubricantes</span>
+                            </a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <a href=""><img src="./ofertas/src/vehiculos.jpg" alt="">
+                                <span>Vehiculos</span>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
         </header>
-    
+
         <main class="container-1">
             <div id="sect_video" class="sect_video">
                 <video class="video_1" src="./src/multimedia/intro3.mp4" autoplay="true" muted="true" loop="true"
@@ -59,21 +98,57 @@
             <div class="container1_carousel">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="./src/img/carrusel-1/oferta1.webp" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./src/img/carrusel-1/oferta2.webp" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./src/img/carrusel-1/oferta3.webp" class="d-block w-100" alt="...">
-                      </div>
+                        <div class="carousel-item active">
+                            <img src="./src/img/carrusel-1/oferta1.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./src/img/carrusel-1/oferta2.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./src/img/carrusel-1/oferta3.webp" class="d-block w-100" alt="...">
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
         </main>
+
+
+        <!-- footer -->
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img class="img-logo-footer" src="./src/img/logo/logo.png" alt="LOGO DE AUTOSHOP">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p>+51 940 890 890</p>
+                    <br>
+                    <br>
+                    <p>Av. Buenos Aires N°394</p>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2022 <b>AUTOSHOP</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

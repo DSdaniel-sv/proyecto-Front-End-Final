@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.ofertas{
+    background-color: #fff;
+}
+
+.container-ofertas{
+    padding-top: 2.5rem;
+    background-color: #fff;
+}
+.container-title{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.ofertas-figure{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.ofertas-figure div figure img{
+    width: 13rem;
+    height: 12rem;
+}
+
+.ofertas-figure figure{
+    text-align: center;
+}
+.ofertas-figure span{
+    display: block;
+}
+
+.ofertas-figure a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 700;
+}
+
+.ofertas-title{
+    text-align: center;
+    padding: 3rem 0;
+    font-weight: bold;
+}
+.container{
+    padding: 0;
+    margin: 0;
+}
+.envios-img{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
