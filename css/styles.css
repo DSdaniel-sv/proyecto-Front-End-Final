@@ -120,7 +120,20 @@ body{
     width: 100%;
 }
 
-/* ------------------------------------------------footer----------------------------------------------------------------------- */
+/* galery */
+.box__card{
+    border: solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sect {
+    margin: 3rem 0;
+}
+
+
+/* ----footer------ */
 
 .pie-pagina{
     width: 100%;
